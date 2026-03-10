@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #1b1f3b, #0f1123);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 60px 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #8a2be2;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0 10px;
+}
+
+.tagline {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.primary {
+    background: #8a2be2;
+    color: white;
+}
+
+.primary:hover {
+    box-shadow: 0 0 20px #8a2be2;
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #8a2be2;
+    color: white;
+}
+
+.secondary:hover {
+    background: #8a2be2;
+}
+
+.about, .episodes {
+    padding: 60px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1f2345;
+    padding: 30px;
+    border-radius: 15px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #8a2be2;
+}
+
+footer {
+    padding: 20px;
+    opacity: 0.6;
+}
+.contact {
+    color: white;
+    text-decoration: none;
+}
+.primary {
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
